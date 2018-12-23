@@ -1,0 +1,2 @@
+INSERT INTO bulk.bulk_din_configuration(entity_definition_id, attribute_definition_id, din_name, created, created_by, last_modified, last_modified_by)
+VALUES(1,176,'COVERAGE_TYPE_INDICATOR',now(), '10000', now(), '10000');

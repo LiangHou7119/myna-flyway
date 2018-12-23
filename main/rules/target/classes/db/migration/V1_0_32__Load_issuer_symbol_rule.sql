@@ -1,0 +1,74 @@
+/**
+ * Author:  Bruce Wang
+ * Created: Apr 6, 2018
+ */
+
+truncate table rules.issuer_symbol_rule;
+
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('418','UNICREDIT BANK AG','UCB','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('423','COMMERZBANK AG','CMZ','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('424','DEUTSCHE BANK AG','DEB','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('576','DRESDNER BANK AG','DRE','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('743','BARCLAYS BANK P.L.C.','BAR','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('847','ROYAL BANK SCOTLAND P.L.C.','RBS','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('2546','BNP PARIBAS','BNP','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('3030','SOCIETE GENERALE','SGA','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('4173','RABOBANK NEDERLAND','RAB','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('4347','F.VAN LANSCHOT BANKIERS','VLB','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('5192','UNICREDITO ITALIANO S.P.A','UNI','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('9071','MERRILL LYNCH AND CO. INC.','MLY','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('9861','JP MORGAN CHASE BANK N.A.','JPM','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('27765','MERRILL LYNCH S.A.','MLY','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('29154','HSBC TRINKAUS AND BURKHARDT AG','HTB','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('35785','SG OPTION EUROPE','SGA','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('36633','POSTBANK N.V.','PST','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('37826','BANCO COMERCIAL PORTUGUES S.A.','BCP','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('40507','MERRILL LYNCH INTERNATIONAL & CO. C.V.','MLI','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('42023','SGA SOCIETE GENERALE ACCEPTANCE N.V.','SGA','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('43742','ING BANK N.V.','ING','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('44239','CITIGROUP GLOBAL MARKETS DEUTSCHLAND AG & CO. KGAA.','CIT','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('46079','GOLDMAN SACHS INTERNATIONAL','GSL','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('47416','SOCIETE GENERALE EFFEKTEN GMBH','SGA','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('49303','RBS N.V.','RBS','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('62606','CALYON FINANCIAL PRODUCTS (GUERNSEY) LIMITED','CAL','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('63598','EXANE FINANCE','EXA','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('68892','CREDIT SUISSE AG LONDON BRANCH','CRS','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('72787','SNS BANK N.V.','SNS','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('73005','FORTIS BANK LUXEMBOURG','FBL','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('76274','UBS AG','UBS','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('83939','BANCO SANTANDER DE NEGOCIOS PORTUGAL S.A.','SAN','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('87694','JP MORGAN INTL DERIVATIVES LTD','JPM','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('89557','ORCO PROPERTY GROUP','ORP','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('96514','BNP PARIBAS ARBITRAGE ISSUANCE BV','BNP','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('98968','DEUTSCHE BANK AG.LONDON','DBN','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('101184','MORGAN STANLEY BV','JPM','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('105733','GOLD BULLION SECURITIES','GBS','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('111878','CAISSE FEDERALE DU CREDIT MUTUEL NORD EUROPE','CAF','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('125742','GOLDMAN SACHS (JERSEY) LIMITED','GSL','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('131128','ETFS OIL SECURITIES LIMITED','OIL','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('144377','JP MORGAN STRUCTURED PRODUCTS','JPM','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('146403','PEARL GROUP LIMITED','PGL','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('148586','GERMANY1 ACQUISITION LIMITED','GAL','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('150544','CODEIS SECURITIES S.A.','COD','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('168985','ABN AMRO BANK N.V.','ABN','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('50708','GOLDMAN SACHS & CO WERTP.GMBH','GSW','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('15055','BANQUE PALATINE SA','BAP','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('3105','AXA BANQUE','AXA','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('207379','LCL EMISSIONS','LCE','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('76028','KBC BANK NV','KBC','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('118124','VONTOBEL FINANC.PRODUCTS GMBH','VFP','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('206022','NATIXIS STRUCTURED ISSUANCE SA','NSI','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('185600','DNA','DNA','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('2606','CREDIT AGRICOLE S.A.','CRA','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('201774','AMUNDI FINANCE EMISSIONS','AFE','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('127724','ABN AMRO GROENBANK B.V.','AAG','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('2744','NATIXIS S.A.','NTX','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('126188','CREDIT SUISSE INTERNATIONAL PLC','CSI','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('145034','MORGAN STANLEY AND CO INTERNATIONAL PLC','MGS','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('2769','HSBC FRANCE','HSBF','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('3105','AXA BANQUE','AXB','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('126723','ROBECO BANK HOLDING','RBH','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('134058','BANQUE POSTALE(LA)','BAQ','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('227837','GOLDMAN SACHS FCI LTD','GLDS','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('82317','AMUNDI','AMD','now()','10000','now()','10000');
+INSERT INTO rules.issuer_symbol_rule(issuerCode,issuerName,issuerSymbol,created,createdBy,lastModified,lastModifiedBy) VALUES('194595','SG ISSUER','SGA','now()','10000','now()','10000');

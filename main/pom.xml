@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+	<!-- 
+    <parent>
+        <groupId>com.tr.myna</groupId>
+        <artifactId>myna-parent-pom</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+ 	-->
+ 	<groupId>com.tr.myna</groupId>
+    <artifactId>myna-flyway-main-parent</artifactId>
+    <version>1.1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+	<properties>
+		<version.org.postgresql>42.1.1</version.org.postgresql>
+	</properties>
+	
+	
+    <name>myna-flyway-main-parent</name>
+    <description>Myna Flyway: Parent Aggregator</description>
+    <modules>
+        <module>myna</module>
+        <module>fis</module>
+        <module>bulk</module>
+        <module>rules</module>
+        <module>security</module>
+        <module>backfeed</module>
+    </modules>
+    <scm>
+        <connection>scm:git:https://github.com/LiangHou7119/liang_feed.git</connection>
+        <developerConnection>scm:git:https://github.com/LiangHou7119/liang_feed.git</developerConnection>
+        <url>https://github.com/LiangHou7119/liang_feed.git</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <profiles>
+        <profile>
+            <id>on-prem</id>
+            <properties>
+                <flyway.url>
+                    jdbc:postgresql://192.168.2.102:5432/myna
+                </flyway.url>
+                <flyway.password>myna</flyway.password>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <flyway.url>
+                    jdbc:postgresql://192.168.2.159:5432/myna
+                </flyway.url>
+                <flyway.password>myna</flyway.password>
+            </properties>
+        </profile>        
+    </profiles>
+
+    <repositories>
+        <!-- SAMI-BAMS repositories -->
+        <repository>
+            <id>snapshots</id>
+            <url>http://192.168.2.129:8081/nexus/content/repositories/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+
+        <repository>
+            <id>releases</id>
+            <url>http://192.168.2.129:8081/nexus/content/repositories/releases</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    
+    <distributionManagement>
+    	<repository>  
+            <id>releases</id>  
+            <url>http://192.168.2.129:8081/nexus/content/repositories/releases</url>  
+        </repository>  
+        <snapshotRepository>  
+            <id>snapshots</id>  
+            <url>http://192.168.2.129:8081/nexus/content/repositories/snapshots</url>  
+        </snapshotRepository>  
+    </distributionManagement>
+
+</project>
