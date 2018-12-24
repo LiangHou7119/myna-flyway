@@ -38,6 +38,18 @@
 
     <profiles>
         <profile>
+            <id>tr-windows</id>
+            <properties>
+                <flyway.url>
+                    jdbc:postgresql://10.35.13.43:5432/myna
+                </flyway.url>
+                <flyway.password>myna</flyway.password>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+	<profile>
             <id>on-prem</id>
             <properties>
                 <flyway.url>
