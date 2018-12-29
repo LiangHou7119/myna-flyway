@@ -19,7 +19,7 @@ END
 $do$;
 
 -- Create readonly user
-CREATE USER myna_readonly WITH PASSWORD 'myna_readonly';
+CREATE USER myna_readonly WITH PASSWORD '$yna_readonly';
 
 -- Allows connect to myna database only
 GRANT CONNECT ON DATABASE myna TO myna_readonly;
