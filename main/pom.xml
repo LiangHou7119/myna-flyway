@@ -37,6 +37,18 @@
     </scm>
 
     <profiles>
+    	<profile>
+            <id>hw-myna</id>
+            <properties>
+                <flyway.url>
+                    jdbc:postgresql://192.168.0.215:5432/myna
+                </flyway.url>
+                <flyway.password>Seph=fe*aCH3</flyway.password>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
         <profile>
             <id>tr-windows</id>
             <properties>
